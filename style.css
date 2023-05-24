@@ -6,6 +6,7 @@ body {
 
 h1 {
     font-size: 90px;
+    margin: 30px;
 }
 
 h2 {
@@ -23,12 +24,15 @@ h1, h2 {
     font-size: 40px;
     list-style-position: inside;
     list-style-type: none;
+    margin: 10px;
 }
 
 .links {
-    padding-top: 200px;
     padding-left: 0px;
-    margin: auto;
+    margin: 100px auto 50px;
+    border: 2px indigo solid;
+    width: 600px;
+    height: 185px;
 }
 
 a {
@@ -44,4 +48,10 @@ h3 {
 img {
     margin: auto;
     display: block;
+}
+
+.home_image {
+    width: 800px;
+    height: auto;
+    margin: auto;
 }
